@@ -6,8 +6,5 @@ export default defineConfig({
   server: {
     port: 3000,
   },
-  base: '/',            // root site
-  build: {
-    outDir: 'docs'      // 👈 build output into docs/
-  }
+  base: '/',   // ✅ root
 })
