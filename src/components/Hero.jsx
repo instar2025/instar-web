@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-
+import heroImage from "../assets/images/hero_image.png";
 function Hero() {
   return (
     <section id="accueil"  className="bg-black py-5 mb-4 lg:py-20 w-full">
@@ -75,7 +75,7 @@ function Hero() {
         {/* Right Section: Image */}
         <div className="lg:w-1/2 mt-8 lg:mt-0">
           <motion.img
-            src="src/assets/images/hero_image.png"  // Replace with your image path
+            src={heroImage}  // Replace with your image path
             alt="Hero Image"
             className="w-full h-auto object-cover rounded-lg"
             initial={{ opacity: 0 }}
