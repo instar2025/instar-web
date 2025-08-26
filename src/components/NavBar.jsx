@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-
+import logo from "../assets/images/logooooooblanc.png";
 function NavBar() {
   return (
     <nav className="fixed top-0 left-0 w-full bg-black z-50 p-4">
@@ -9,7 +9,7 @@ function NavBar() {
         <div>
           <a href="/" >
           <img
-            src="assets/images/logooooooblanc.png"
+            src={logo}   // 👈 use imported path
             className="w-32 md:w-40"
             alt="Instar Logo"
           /></a>
