@@ -7,5 +7,5 @@ export default defineConfig({
   server: {
     port: 3000,
   },
-  base: '/instar-web/', // 👈 important for GitHub Pages (repo name)
+  base: '/', // 👈 important for GitHub Pages (repo name)
 })
